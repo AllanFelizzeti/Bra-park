@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+    <title>Bra-Park</title>
+</head>
+<body>
+
+    <div class="campo">
+        <h1 id="titulo"><strong>Cadastro de Carros</strong></h1>
+        <p id="subtitulo"><strong>Informações do Dono e veiculo</strong></p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="cpf"><strong>CPF</strong></label>
+                <input type="text" name="cpf" id="cpf" required>
+            </div>
+
+            <div class="campo">
+                <label for="pl"><strong>PLACA</strong></label>
+                <input type="text" name="pl" id="pl" required>
+            </div>
+
+            <div class="campo">
+                <label for="cel"><strong>CELULAR</strong></label>
+                <input type="text" name="cel" id="cel" required>
+            </div>
+
+            <div class="campo">
+                <label for="vaga"><strong>VAGA</strong></label>
+                <input type="text" name="vaga" id="vaga" required>
+            </div>
+        </fieldset>
+
+        <button class="botao" type="submit"><strong>Cadastrar</strong></button>
+    </form>
+    
+</body>
+</html>
