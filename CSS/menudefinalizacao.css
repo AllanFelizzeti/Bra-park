@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image:url(imagens/imagem.jpg);
+    background-image: url(../imagens/imagem.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -13,8 +13,8 @@ body{
     font-family: sans-serif;
     color: #0666f7;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    margin-left: 10%;
-    margin-top: 15%;
+    margin-left: 40%;
+    margin-top: 10%;
     
 }
 
@@ -22,19 +22,8 @@ body{
     font-family: sans-serif;
     color: rgb(235, 24, 9);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    margin-left: 13%;
+    margin-left: 44.8%;
     margin-top: 1%;
-}
-
-
-body{
-    background-color: aliceblue;
-    font-family: sans-serif;
-    font-size: 1em;
-    color: #0c08ee;
-    margin-left: 36%;
-    margin-top: 2%;
-    justify-content: center;
 }
 
 .campo{
