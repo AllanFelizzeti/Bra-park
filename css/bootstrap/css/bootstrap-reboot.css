@@ -352,8 +352,7 @@ template {
   font-family: sans-serif;
   color: #0666f7;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-  
-  
+   
 }
 
 #sub{
@@ -376,7 +375,7 @@ template {
 }
 
 .campo label{
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
   color: #026e19;
   display: block;
 }
@@ -386,7 +385,7 @@ template {
   font-size: 1em;
   color: #026e19;
   margin-left: 40%;
-  margin-top: 2%;
+  margin-top: 1%;
   justify-content: center;
 }
 
